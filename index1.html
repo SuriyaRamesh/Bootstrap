@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Bootstrap Example</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script></head>
+<body>
+    <div class="container">
+        <h2>Bootstrap Navigation Bar</h2>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">WebsiteName</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">page 1</a></li>
+                    <li><a href="#">page 2</a></li>
+                    <li><a href="#">page 3</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h2>Inverted navigation bar</h2>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">WebsiteName</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">page 1</a></li>
+                    <li><a href="#">page 2</a></li>
+                    <li><a href="#">page 3</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h2>Inverted navigation bar with dropdown</h2>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">WebsiteName</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">page 1<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Submenu 1</a></li>
+                            <li><a href="#">Submenu 2</a></li>
+                            <li><a href="#">Submenu 3</a></li>
+                            <li><a href="#">Submenu 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">page 2</a></li>
+                    <li><a href="#">page 3</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <h2>Right aligned nav bar</h2>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">WebsiteName</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">page 1<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Submenu 1</a></li>
+                            <li><a href="#">Submenu 2</a></li>
+                            <li><a href="#">Submenu 3</a></li>
+                            <li><a href="#">Submenu 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">page 2</a></li>
+                    <li><a href="#">page 3</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user">Sing Up</span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in">Login</span></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h2>Navbar Button</h2>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">WebsiteName</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">page 1<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Submenu 1</a></li>
+                            <li><a href="#">Submenu 2</a></li>
+                            <li><a href="#">Submenu 3</a></li>
+                            <li><a href="#">Submenu 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">page 2</a></li>
+                    <li><a href="#">page 3</a></li>
+                </ul>
+                <button class="btn btn-info navbar-btn">Button</button>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user">Sing Up</span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in">Login</span></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h2>Navbar forms</h2>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">WebsiteName</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">page 1<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Submenu 1</a></li>
+                            <li><a href="#">Submenu 2</a></li>
+                            <li><a href="#">Submenu 3</a></li>
+                            <li><a href="#">Submenu 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">page 2</a></li>
+                    <li><a href="#">page 3</a></li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" placeholder="search" class="form-control">
+                    </div>
+                    <button class="btn btn-success" type="Submit">Submit</button>
+                </form>
+            </div>
+        </nav>
+
+        <h2>Navbar input group</h2>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">WebsiteName</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">page 1<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Submenu 1</a></li>
+                            <li><a href="#">Submenu 2</a></li>
+                            <li><a href="#">Submenu 3</a></li>
+                            <li><a href="#">Submenu 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">page 2</a></li>
+                    <li><a href="#">page 3</a></li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="input-group">
+                        <input type="text" placeholder="search" class="form-control">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+
+        <h2>Navbar Text</h2>
+        <nav class="navbar navbar-inverse">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+            <p class="navbar-text">Some Text</p>
+        </nav>
+
+        <h2>Fixed navigation bar - Top</h2>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">WebsiteName</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">page 1</a></li>
+                    <li><a href="#">page 2</a></li>
+                    <li><a href="#">page 3</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-md-4">
+                <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
+                <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
+            </div>
+            <div class="col-md-4">
+                <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
+                <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
+            </div>
+            <div class="col-md-4">
+                <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
+                <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
+            </div>
+        </div>
+
+        <!--<h2>Fixed navigation bar - bottom</h2>
+        <nav class="navbar navbar-inverse navbar-fixed-bottom">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">WebsiteName</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">page 1</a></li>
+                    <li><a href="#">page 2</a></li>
+                    <li><a href="#">page 3</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-md-4">
+                <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
+                <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
+            </div>
+            <div class="col-md-4">
+                <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
+                <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
+            </div>
+            <div class="col-md-4">
+                <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
+                <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
+            </div>
+        </div>-->
+
+        <h2>Collapsing the navigation bar</h2>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">Websitename</a>
+                </div>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                    <li><a href="#">Page 4</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"> Sign Up</span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"> Login</span></a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+        <h2>Bootstrap form latouts</h2>
+        <h4>Vertical form (default)</h4>
+        <form>
+            <div class="form-group">
+                <label for="email">Email : </label>
+                <input type="input" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="password">password : </label>
+                <input type="input" class="form-control" id="password">
+            </div>
+            <div class="checkbox">
+            <label><input type="checkbox"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+
+        <h2>Inline Form</h2>
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="email">Email : </label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="password">password : </label>
+                <input type="password" class="form-control" id="password">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+
+
+        <h2>For screen reader</h2>
+        <form class="form-inline">
+            <div class="form-group">
+                <label class="sr-only" for="email1">Email : </label>
+                <input type="email" class="form-control" id="email1" placeholder="email">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="password1">password : </label>
+                <input type="password" class="form-control" id="password1" placeholder="password">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+
+        <h2>Horizontal Form</h2>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label  class="control-label col-sm-2" for="email1">Email : </label>
+                <div class="col-sm-10">
+                <input type="email" class="form-control" id="email1">
+                </div>
+            </div>
+            <div class="form-group">
+                <label  class="control-label col-sm-2" for="password1">password : </label>
+                <div class="col-sm-10">
+                <input type="password" class="form-control" id="password1">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </form>
+
+        <h2>Bootstrap Input forms</h2>
+        <h4>Text and Password type inputs</h4>
+        <div class="form-group">
+            <label for="email" class="control-label">Email : </label>
+            <input type="email" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+            <label for="password" class="control-label">Password : </label>
+            <input type="password" class="form-control" id="password">
+        </div>
+        <h2>Bootstrap Textarea</h2>
+        <div class="form-group">
+            <label class="control-label" for="comment">Comment : </label>
+            <textarea id="comment" class="form-control" rows="6"></textarea>
+        </div>
+
+        <h2>Bootstrap Checkbox</h2>
+        <div class="checkbox">
+            <label><input type="checkbox"> Option 1</label>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox"> Option 2</label>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox" disabled> Option 3</label>
+        </div>
+
+        <h2>Inline checkbox</h2>
+        <label class="checkbox-inline"><input type="checkbox"> Option 1</label>
+        <label class="checkbox-inline"><input type="checkbox"> Option 2</label>
+        <label class="checkbox-inline"><input type="checkbox" disabled> Option 3</label>
+
+        <h2>Bootstrap Radio Buttons</h2>
+        <div class="radio">
+            <label><input type="radio" name="optradio"> Option 1</label>
+        </div>
+        <div class="radio">
+            <label><input type="radio" name="optradio"> Option 2</label>
+        </div>
+        <div class="radio">
+            <label><input type="radio" name="optradio"> Option 3</label>
+        </div>
+
+        <h2>Inline radio button</h2>
+        <label class="radio-inline"><input type="radio" name="optradio"> Option 1</label>
+        <label class="radio-inline"><input type="radio" name="optradio"> Option 2</label>
+        <label class="radio-inline"><input type="radio" name="optradio"> Option 3</label>
+
+        <h2>Bootstrap selectlist</h2>
+        <div class="form-group">
+            <label for="sel">Select List : </label>
+            <select class="form-control" id="sel">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select>
+        </div>
+
+        <h2>Multiple select list</h2>
+        <div class="form-group">
+            <label for="sel">Select List : </label>
+            <select class="form-control" id="sel" multiple="">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select>
+        </div>
+
+        <h2>Horizontal form with static input</h2>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label  class="control-label col-sm-2" for="email1">Email : </label>
+                <div class="col-sm-10">
+                    <p class="form-control-static">surya.tplm@gmail.com</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label  class="control-label col-sm-2" for="password1">password : </label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="password1">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </form>
+
+        <h2>Bootstrap input group</h2>
+        <form>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input type="email" id="email" class="form-control" placeholder="Email">
+            </div>
+            <br>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                <input type="password" id="password" class="form-control" placeholder="password">
+            </div>
+            <br>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-pen"></i></span>
+                <input type="text" id="text" class="form-control" placeholder="Additional text">
+            </div>
+        </form>
+
+        <h2>Input Group button</h2>
+        <form>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="search">
+                <div class="input-group-btn">
+                    <button type="submit" class="btn btn-default">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <h2>Bootstrap Form control states</h2>
+        <h3>Horizontal Form</h3>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-md-2" for="focusedInput">Focused</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" id="focusedInput" value="click to focus">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2" for="disabledInput">Disabled</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" id="disabledInput" disabled>
+                </div>
+            </div>
+            <fieldset disabled>
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="disabledTextInput">Fieldset disabled</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="disabledTextInput">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="disabledSelect">Disabled select</label>
+                    <div class="col-md-10">
+                        <select id="disabledSelect" class="form-control">
+                            <option>Disabled Select</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="form-group has-success has-feedback">
+                <label class="control-label col-md-2" for="inputSuccess">Input with success and icon</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" id="inputSuccess">
+                    <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                </div>
+            </div>
+            <div class="form-group has-warning has-feedback">
+                <label class="control-label col-md-2" for="inputWarning">Input with warning and icon</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" id="inputWarning">
+                    <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+                </div>
+            </div>
+            <div class="form-group has-error has-feedback">
+                <label class="control-label col-md-2" for="inputError">Input with error and icon</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" id="inputError">
+                    <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                </div>
+            </div>
+        </form>
+
+        <h4>Inline Form</h4>
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="focusedInput1">Focused</label>
+                <input type="text" class="form-control" id="focusedInput1" value="click to focus">
+            </div>
+            <div class="form-group">
+                <label for="disabledInput1">Disabled</label>
+                <input type="text" class="form-control" id="disabledInput1" disabled>
+            </div>
+            <fieldset disabled>
+                <div class="form-group">
+                    <label for="disabledTextInput1">Fieldset disabled</label>
+                    <input type="text" class="form-control" id="disabledTextInput1">
+                </div>
+                <div class="form-group">
+                    <label for="disabledSelect1">Disabled select</label>
+                    <select id="disabledSelect1" class="form-control">
+                        <option>Disabled Select</option>
+                    </select>
+                </div>
+            </fieldset>
+            <div class="form-group has-success has-feedback">
+                <label for="inputSuccess1">Input with success</label>
+                <input type="text" class="form-control" id="inputSuccess1">
+                <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+            </div>
+            <div class="form-group has-warning has-feedback">
+                <label for="inputWarning1">Input with warning</label>
+                <input type="text" class="form-control" id="inputWarning1">
+                <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+            </div>
+            <div class="form-group has-error has-feedback">
+                <label for="inputError1">Input with error</label>
+                <input type="text" class="form-control" id="inputError1">
+                <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+            </div>
+        </form>
+
+        <h2>Bootstrap input sizing</h2>
+        <form>
+            <div class="form-group">
+                <label for="inputsmall">small input</label>
+                <input type="text" id="inputsmall" class="form-control input-sm">
+            </div>
+            <div class="form-group">
+                <label>Default input</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Large input</label>
+                <input type="text" class="form-control input-lg">
+            </div>
+        </form>
+
+        <h2>Horizontal  Form Input size</h2>
+        <form class="form-horizontal">
+            <div class="form-group form-group-lg">
+                <label class="control-label col-sm-2" for="lg">Form-group-large</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="lg">
+                </div>
+            </div>
+            <div class="form-group form-group-sm">
+                <label class="control-label col-sm-2" for="sm">Form-group-small</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="sm">
+                </div>
+            </div>
+        </form>
+
+        <h2>Input Group Size</h2>
+        <form>
+            <div class="input-group input-group-lg">
+                <input class="form-control" type="text" placeholder="Search">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-search"></span></button>
+                </div>
+            </div>
+        </form>
+
+        <h2>Column Sizing</h2>
+        <div class="form-group row">
+            <div class="col-sm-2">
+                <label class="control-label">col-xs-2</label>
+                <input class="form-control" type="text">
+            </div>
+            <div class="col-sm-3">
+                <label class="control-label">col-xs-2</label>
+                <input class="form-control" type="text">
+            </div>
+            <div class="col-sm-4">
+                <label class="control-label">col-xs-2</label>
+                <input class="form-control" type="text">
+            </div>
+        </div>
+
+        <h2>Help Text</h2>
+        <div class="form-group">
+            <label class="control-label">Password : </label>
+            <input class="form-control" type="text">
+            <span class="help-block">Password should have 8 characters.</span>
+            <button type="button" class="btn btn-success">Submit</button>
+        </div>
+
+        <h2>Bootstrap Media Objects</h2>
+        <h3>Left aligned media object</h3>
+        <div class="media">
+            <div class="media-left">
+                <img src="img/per-logo.jpeg" class="media-object" style="width: 60px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">Left Aligned</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <hr>
+        <h3>Right Aligned Media Object</h3>
+        <div class="media">
+            <div class="media-body">
+                <h4 class="media-heading">Right Aligned</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="media-right">
+                <img src="img/per-logo.jpeg" class="media-object" style="width: 60px">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
